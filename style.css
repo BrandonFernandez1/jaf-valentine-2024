@@ -1,0 +1,69 @@
+.pinyon-script-regular {
+    font-family: "Pinyon Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 100px;
+    color: maroon;
+    border: 5px solid maroon;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    text-align: center;
+  }
+  
+#love-emoji {
+    width: 25%;
+    height: auto;
+}
+
+#placeholder {
+    width: 25%;
+    height: auto;
+}
+
+#button {
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    margin: 0;
+}
+
+.container {
+    position: absolute;
+    border: 3px solid green;
+    top: 80%;
+    left: 50%;
+  }
+  
+  .center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(8);
+    grid-gap: 10px;
+  }
+
+  .gallery__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+
+  .gallery__item--12 {
+    grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row-start:2;
+    grid-row-end: 4;
+  }
